@@ -9,6 +9,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+        <img src="./../../assets/logo.png" class="navbar-brand">
       </div>
 
       <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -48,6 +49,29 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+nav {
+  border-top: 1px solid #ef2f86;
+  border-bottom: 1px solid #ef2f86;
+}
+
+a {
+  color: #ef2f86 !important;
+  font-family: "Palatino Linotype";
+  font-size: 120%;
+}
+
+a:hover {
+  background-color: #e7e7e7 !important;
+}
+
+.active a {
+  background-color: #ef2f86 !important;
+  color: #e7e7e7 !important;
+}
+img {
+  background-color: #ef2f86 !important;
+}
 
 </style>
